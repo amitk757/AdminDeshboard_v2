@@ -1,0 +1,59 @@
+body{
+    background: #a59f9f;
+    height: 100vh;
+}
+.nav-bar{
+    background-color: white;
+}
+
+.search-form{
+width: 50%;
+}
+
+#sidebar{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    z-index:9999;
+    box-shadow:-1px 0 0 rgb(248,249,250,0.1);
+    background: rgb(248,249,250);
+
+}
+#sidebar .nav-item{
+    text-align: center;
+    padding: 25px 0 ;
+}
+
+
+#sidebar .nav-item a{
+    color:rgba(0,0,0,.2);
+}
+
+#sidebar .nav-item a.active{
+
+    color:#0d6efd;
+
+}
+.vertical-nav{
+    margin-top:20vh;
+}
+.logo{
+    max-height: 30px;
+    margin:15px 15px;
+}
+
+a.navbar-brand{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
