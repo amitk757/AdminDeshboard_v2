@@ -1,6 +1,7 @@
 body{
-    background: #a59f9f;
-    height: 100vh;
+    background: #e1dddd;
+   height: 100vh;
+
 }
 .nav-bar{
     background-color: white;
@@ -49,11 +50,34 @@ a.navbar-brand{
     width: 100%;
 }
 
+section{
+    margin:10px;
+}
 
+.main{
+    padding: 3rem;
+    padding-top: calc(4rem+74px);
+}
+.main .first-row, .main .second-row{
+padding-bottom: 3rem;
+}
 
+.main .row .card{
+    height: 100%;
+} 
 
+.card{
+    max-height: 100%;
+    border:0;
+    box-shadow: 2px 0 10px rgba(0,0,0,.1);
+}
 
-
-
-
-
+.card-header{
+    font-weight: 700;
+    background: white;
+    padding: 20px;
+}
+.card-body{
+    padding: 0.5rem;
+    font-size: 12px;
+}
